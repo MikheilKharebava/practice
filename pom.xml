@@ -77,7 +77,7 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M5</version>
-<!--           <configuration>
+          <configuration>
             <!-- force 7-bit default encoding to ensure that nothing depends on it -->
             <argLine>-Dfile.encoding=UTF-8</argLine>
             <!-- Uncomment it if you don't want your build to be failed in case of test errors -->
@@ -94,7 +94,7 @@
                 <value>false</value>
               </property>
             </properties>
-          </configuration> -->
+          </configuration>
         </plugin>
 
     </plugins>
